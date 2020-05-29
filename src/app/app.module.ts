@@ -1,9 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
-
+import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -13,9 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent
   ],
   imports: [
-  
+    MatIconModule,
     BrowserModule,
-    FontAwesomeModule,
     CommonModule,
     BrowserAnimationsModule,
   ],

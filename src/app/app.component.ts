@@ -70,6 +70,7 @@ import * as html2pdf from 'html2pdf.js';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
   title = 'pdf-image';
   downloadPDF(){
     const option = {
